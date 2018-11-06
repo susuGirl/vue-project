@@ -1,5 +1,7 @@
 # vue-project
 
+有时间再做...先暂停
+
 > A Vue.js project
 
 ## Build Setup
