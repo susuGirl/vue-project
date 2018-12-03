@@ -28,8 +28,10 @@ module.exports = {
     path: config.build.assetsRoot,
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
-      ? config.build.assetsPublicPath
-      : config.dev.assetsPublicPath
+      // ? config.build.assetsPublicPath
+      // : config.dev.assetsPublicPath
+      ? './' + config.build.assetsPublicPath
+      : './' + config.dev.assetsPublicPath
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'], // 自动解析确定的拓展名,使导入模块时不带拓展名
