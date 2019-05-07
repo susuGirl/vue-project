@@ -2,6 +2,8 @@
 
 有时间再做...先暂停
 
+详细教程 [博客](https://blog.csdn.net/weixin_41845146/article/details/84777542)
+
 > A Vue.js project
 
 ## Build Setup
